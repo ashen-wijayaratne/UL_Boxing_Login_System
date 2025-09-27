@@ -1,0 +1,7 @@
+[
+  { "id": 1, "full_name": "Sample Student1", "student_number": "12345678" },
+  { "id": 2, "full_name": "Sample Student2", "student_number": "57348957" },
+  { "id": 3, "full_name": "Sample Student3", "student_number": "73492834" },
+  { "id": 4, "full_name": "Sample Student4", "student_number": "87897087" },
+  { "id": 5, "full_name": "Sample Student5", "student_number": "45523387" }
+]
