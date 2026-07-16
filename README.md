@@ -1,9 +1,8 @@
-# Boxing Sign-In Application
+# Boxing Club Sign-In Application
 
 A web-based sign-in and membership management system for boxing clubs or gyms. This application allows members to sign in, request membership, and provides an admin interface for managing member data.
 
 ## Features
-
 - **Member Sign-In:**
   - Members can sign in using a simple web interface.
   - QR code support for quick access.
@@ -35,28 +34,7 @@ Boxing_signin/
     └── index.html            # Main sign-in and request page
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- Flask (`pip install flask`)
-
-### Running the Application
-
-1. Clone or download this repository.
-2. Install dependencies:
-   ```bash
-   pip install flask
-   ```
-3. Start the Flask server:
-   ```bash
-   python app.py
-   ```
-4. Open your browser and navigate to `http://localhost:5000`.
-
 ### File Descriptions
-
 - `app.py`: Main backend logic using Flask.
 - `members.json`: Stores registered member data.
 - `requested_members.json`: Stores pending membership requests.
@@ -64,10 +42,8 @@ Boxing_signin/
 - `templates/`: HTML templates for the user and admin interfaces.
 
 ## Customization
-
 - Update `logo.jpg` and `join_membershipqrcode.jpeg` in `static/images/` to match your club branding.
 - Modify HTML templates in `templates/` for custom UI/UX.
 
 ## License
-
 This project is provided as-is for educational and club use. Please customize and extend as needed for your organization.
